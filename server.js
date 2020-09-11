@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/hello', (req, res) => {
-  res.sendFile(__dirname + '/client/public/index.html');
+  res.sendFile(__dirname + '/client/build/index.html');
 });
 const carousel=[{
   desc: "yes",
