@@ -10,9 +10,21 @@ import CAROUSEL from './server/server'
 const Page = ({match}) => {
   const carousel = find(CAROUSEL);
   console.log(carousel)
-
+  // const carousel = CAROUSEL.map((CAROUSEL)=>{
+  //    return(
+  //     <div className="carousel__slide"  style={{backgroundImage: 'url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_1.jpg)'}}>
+  //         <img src={CAROUSEL.img} alt="yess"/>
+         
+  //         <div className="carousel__caption">
+  //         <p>{CAROUSEL.description}</p>
+  //         </div>
+  //       </div>
+  //    )
+  // })
     return (
      
+     
+
       <section className="carousel">
         <input className="carousel__input" type="radio" id="carousel__slide--1" name="carousel" aria-hidden="true" hidden defaultChecked="checked" />
         <div className="carousel__slide" style={{backgroundImage: 'url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_1.jpg)'}}>

@@ -6,12 +6,15 @@
 		"server": "nodemon server.js",
 		"client": "npm start --prefix client",
 		"clientinstall": "npm install --prefix client",
-		"dev": "concurrently \"npm run server\" \"npm run client\""
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"heroku-postbuild": "cd client && npm install && npm run build"
 	},
 	"dependencies": {
 		"body-parser": "^1.18.3",
 		"connect-livereload": "^0.6.1",
 		"express": "^4.16.4",
+		"firebase": "^7.20.0",
+		"heroku": "^7.42.13",
 		"lodash": "^4.17.20",
 		"material-auto-rotating-carousel": "^3.0.2",
 		"nodemon": "^2.0.4",
