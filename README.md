@@ -2,16 +2,16 @@
 
 Run the following.
 
-- `git clone https://github.com/meddlin/create-react-app-express.git`
-- `cd create-react-app-express/client && yarn`
+- `clne the github repository and make sure to run npm install to install all the the dependences`
+- `cd into the directory`
 - `cd ..` 
 - `// NOTE: make sure you are back in the root folder`
-- `yarn`
-- `yarn dev`
+- `cd in the root folder`
+- `npm run dev`
 
 ## Frontend -- create-react-app
 
-The frontend was created by running `npx create-react-app your-app-name`. There is 
+The frontend was created by running `npm run dev`. There is 
 only enough here for a proof-of-concept to demonstrate how to call the 'express' backend.
 
 ## Backend -- express web server
